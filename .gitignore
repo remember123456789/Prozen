@@ -1,0 +1,14 @@
+# 依赖 & 构建产物
+node_modules/
+dist/
+build/
+*.log
+.env
+.DS_Store
+.vscode/
+
+# 其他大文件/缓存
+*.zip
+*.tar.gz
+.cache/
+
