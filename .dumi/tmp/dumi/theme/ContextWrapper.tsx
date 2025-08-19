@@ -17,7 +17,7 @@ const entryExports = {
 const pkg = {"name":"Prozen","description":"","version":"1.0.0","license":"ISC","author":""};
 const historyType = "browser";
 const hostname = undefined;
-const themeConfig = {"footer":"Copyright © 2025 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true};
+const themeConfig = {"footer":"Copyright © 2025 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"logo":"https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png","nav":{"zh-CN":[{"title":"文档","link":"/docs"},{"title":"组件","link":"/components"},{"title":"修改日志","link":"/changelog"},{"title":"国内镜像","link":"https://pro-components.antdigital.dev"}],"en-US":[{"title":"Docs","link":"/en-US/docs"},{"title":"Components","link":"/en-US/components"},{"title":"Changelog","link":"/en-US/changelog"}]}};
 const _2_level_nav_available = true;
 
 export default function DumiContextWrapper() {
