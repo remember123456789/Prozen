@@ -5,12 +5,7 @@ hero:
   description: 基于 React 的 Pro 风格组件库
   actions:
     - text: 开始使用 →
-      link: /components/pro-card
-
-
-
-
-      
+      link: /components/pro-card      
 features:
   - image: 'https://mdn.alipayobjects.com/yuyan_qk0oxh/afts/img/q48YQ5X4ytAAAAAAAAAAAAAAFl94AQBr'
     title: 简单易用
@@ -29,6 +24,12 @@ footer: Open-source MIT Licensed | © 2017-present
 ```bash
 npm install @repro/pro
 ```
+
+
+
+
+
+
 
 
 

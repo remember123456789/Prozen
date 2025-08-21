@@ -3,6 +3,8 @@
 // DO NOT CHANGE IT MANUALLY!
 import { frontmatter as fm0, toc as t0 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=frontmatter';
 import { demoIndex as dmi0 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=demo-index';
+import { frontmatter as fm1, toc as t1 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=frontmatter';
+import { demoIndex as dmi1 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=demo-index';
 
 export const filesMeta = {
   'docs/index': {
@@ -10,6 +12,12 @@ export const filesMeta = {
     toc: t0,
     demoIndex: dmi0,
     textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/index.md?type=text'),
+  },
+  'components/index': {
+    frontmatter: fm1,
+    toc: t1,
+    demoIndex: dmi1,
+    textGetter: () => import(/* webpackChunkName: "meta__packages" */'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=text'),
   },
 }
 
