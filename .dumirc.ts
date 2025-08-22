@@ -10,10 +10,7 @@ export default defineConfig({
     "prozen-card": path.join(__dirname, "packages/card"),
   },
   //配置文档目录
-  // favicons: [
-  //     './public/zbpve-gau6m-001.ico'
-  // ],
-
+  favicons: ["https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png"],
   themeConfig: {
     logo: "https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png",
     // 是否显示最后一次修改时间
@@ -21,27 +18,19 @@ export default defineConfig({
     //配置导航栏
     nav: {
       "zh-CN": [
-        { title: "文档", link: "/docs" },
+        { title: "文档", link: "/docs/component" },
         { title: "组件", link: "/components" },
         { title: "修改日志", link: "/changelog" },
-        // { title: '在线预览', link: '/playground' },
         {
           title: "国内镜像",
           link: "https://pro-components.antdigital.dev",
         },
-      ],
-      "en-US": [
-        { title: "Docs", link: "/en-US/docs" },
-        { title: "Components", link: "/en-US/components" },
-        { title: "Changelog", link: "/en-US/changelog" },
-        // { title: 'Playground', link: '/en-US/playground' },
       ],
     },
     sidebar: {
       "/components": [
         {
           title: "组件",
-          link: "/components/card",
           children: [
             {
               title: "卡片",
@@ -62,5 +51,6 @@ export default defineConfig({
         },
       ],
     },
+    footer: "Copyright © 2025 | remember",
   },
 });

@@ -5,12 +5,12 @@ import classNames from 'classnames';
 export interface CardProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
     title?: React.ReactNode | string,
     className?: string,
-    headerClassName?: string,
     children?: React.ReactNode,
     header?: React.ReactNode | string,
+    loading?: boolean,
 }
 const InstanceCard = (props: CardProps) => {
-    const { title, className, headerClassName, children, header } = props;
+    const { title, className, children, header, loading } = props;
     let head = header
     if (head) {
         head = (
@@ -21,9 +21,12 @@ const InstanceCard = (props: CardProps) => {
     } else {
         head = title
     }
+    const allClassNames = classNames(className, {
+        'loading': loading,
+    })
     return (
         <>
-            <div className={className}>
+            <div className={allClassNames} >
                 {head}
                 {children}
             </div>
