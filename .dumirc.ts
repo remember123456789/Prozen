@@ -15,6 +15,8 @@ export default defineConfig({
     logo: "https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png",
     // 是否显示最后一次修改时间
     lastUpdated: true,
+    // 配置文档标题
+    title: "Prozen",
     //配置导航栏
     nav: {
       "zh-CN": [
