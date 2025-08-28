@@ -22,7 +22,7 @@ const CardStyle = styled.div`
 const useStyleHooks = () => {
   const getStyles = (classNames: string) => {
     let classArr = classNames.split(" ");
-
+    
     let obj = {
       [`${getPrefixCls()}-loading`]: {
         display: "flex",

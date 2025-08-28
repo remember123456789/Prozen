@@ -37,7 +37,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "preset",
@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 44
+        "register": 132
       },
       "enableBy": "register",
       "type": "preset",
@@ -63,7 +63,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 35
       },
       "enableBy": "register",
       "type": "preset",
@@ -77,10 +77,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            4
+            29
           ]
         },
-        "register": 14
+        "register": 24
       },
       "enableBy": "register",
       "type": "plugin",
@@ -94,12 +94,10 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            0,
-            0,
             0
           ]
         },
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -113,240 +111,10 @@
       "time": {
         "hooks": {
           "onDevCompileDone": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
+            1
           ]
         },
-        "register": 4
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -360,15 +128,13 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            44
+            53
           ],
           "onGenerateFiles": [
-            7,
-            9,
-            10
+            7
           ]
         },
-        "register": 68
+        "register": 98
       },
       "enableBy": "register",
       "type": "plugin",
@@ -382,8 +148,6 @@
       "time": {
         "hooks": {
           "addEntryCode": [
-            0,
-            0,
             0
           ]
         },
@@ -401,220 +165,14 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            1
+            0,
+            0
           ],
           "onCheck": [
             1
           ],
           "onCheckCode": [
-            2,
             1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0,
             0,
             0,
@@ -668,7 +226,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -682,10 +240,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -698,7 +256,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -712,10 +270,11 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ]
         },
-        "register": 36
+        "register": 69
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1567,7 +1126,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1584,7 +1143,7 @@
             1
           ]
         },
-        "register": 6
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1598,10 +1157,10 @@
       "time": {
         "hooks": {
           "addBeforeMiddlewares": [
-            35
+            47
           ]
         },
-        "register": 4
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1614,7 +1173,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 220
+        "register": 222
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1627,7 +1186,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 354
+        "register": 627
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1644,17 +1203,13 @@
             0
           ],
           "onGenerateFiles": [
-            8,
-            2,
-            2
+            7
           ],
           "addRuntimePlugin": [
-            0,
-            0,
-            0
+            1
           ]
         },
-        "register": 14
+        "register": 21
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1674,55 +1229,10 @@
             0
           ],
           "modifyHTMLFavicon": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1736,17 +1246,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            7,
-            3,
-            2
+            11
           ],
           "addRuntimePlugin": [
-            0,
-            0,
             0
           ]
         },
-        "register": 3
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1759,7 +1265,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1773,13 +1279,13 @@
       "time": {
         "hooks": {
           "onStart": [
-            3
+            4
           ],
           "addBeforeMiddlewares": [
             3
           ]
         },
-        "register": 86
+        "register": 102
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1791,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 7
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1804,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 6
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1817,15 +1323,9 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            0,
-            0,
             0
           ],
           "addEntryImports": [
-            0,
-            0,
-            0,
-            0,
             0,
             0
           ]
@@ -1843,7 +1343,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1857,23 +1357,18 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            4
+            6,
+            0
           ],
           "onGenerateFiles": [
-            269,
-            71,
-            63
+            239
           ],
           "addPolyfillImports": [
-            0,
-            0,
-            0,
-            0,
             0,
             0
           ]
         },
-        "register": 9
+        "register": 15
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1886,10 +1381,6 @@
       "time": {
         "hooks": {
           "addPolyfillImports": [
-            1,
-            0,
-            0,
-            0,
             0,
             0
           ]
@@ -1907,7 +1398,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 9
+        "register": 12
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1920,7 +1411,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1933,7 +1424,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1947,15 +1438,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            5,
-            2,
-            1
+            3
           ],
           "addBeforeMiddlewares": [
-            0
+            1
           ]
         },
-        "register": 3
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1969,15 +1458,11 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            56,
-            11,
-            72,
-            8,
-            59,
-            9
+            68,
+            21
           ]
         },
-        "register": 21
+        "register": 30
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1990,7 +1475,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 9
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2003,7 +1488,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -2015,7 +1500,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 18
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2029,12 +1514,10 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            1280,
-            59,
-            56
+            1218
           ]
         },
-        "register": 12
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2051,7 +1534,7 @@
             1
           ]
         },
-        "register": 11
+        "register": 19
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2064,7 +1547,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 16
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2077,7 +1560,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2090,7 +1573,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 58
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -2102,7 +1585,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 61
+        "register": 74
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2116,12 +1599,10 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            12,
-            3,
-            4
+            13
           ]
         },
-        "register": 4
+        "register": 7
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -2133,7 +1614,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2146,7 +1627,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 9
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2172,7 +1653,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 5
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -2188,7 +1669,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2201,7 +1682,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 11
+        "register": 21
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -2213,7 +1694,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 8
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2226,7 +1707,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 15
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -2239,55 +1720,10 @@
       "time": {
         "hooks": {
           "addHTMLHeadScripts": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
             0
           ]
         },
-        "register": 7
+        "register": 13
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -2299,7 +1735,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 13
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2313,10 +1749,10 @@
       "time": {
         "hooks": {
           "modifyUniBundler": [
-            1764
+            3651
           ]
         },
-        "register": 6
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2329,7 +1765,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 42
+        "register": 52
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2342,7 +1778,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 131
+        "register": 155
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2356,13 +1792,13 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            42
+            32
           ],
           "onStart": [
             0
           ]
         },
-        "register": 136
+        "register": 269
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -2400,7 +1836,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2439,7 +1875,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 28
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2452,7 +1888,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2478,7 +1914,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2491,7 +1927,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2517,7 +1953,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2569,7 +2005,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2582,7 +2018,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2608,7 +2044,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2621,7 +2057,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 11
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2634,7 +2070,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2647,7 +2083,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2660,7 +2096,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2764,10 +2200,11 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            6
+            9,
+            11
           ]
         },
-        "register": 3
+        "register": 6
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/autoAlias.js",
@@ -2780,24 +2217,24 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0
-          ],
-          "modifyDefaultConfig": [
+            1,
             1
           ],
+          "modifyDefaultConfig": [
+            0,
+            0
+          ],
           "onCheck": [
-            2
+            3
           ],
           "onGenerateFiles": [
-            4,
-            3,
-            3
+            5
           ],
           "modifyBabelPresetOpts": [
             0
           ]
         },
-        "register": 6
+        "register": 23
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2812,7 +2249,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 4
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/compiled/@umijs/plugins/index.js",
@@ -2828,7 +2265,7 @@
             0
           ]
         },
-        "register": 4
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2842,15 +2279,14 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ],
           "onGenerateFiles": [
-            5,
-            1,
-            1
+            6
           ]
         },
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2866,28 +2302,25 @@
           "modifyConfig": [
             0,
             0,
+            4,
+            0,
+            0,
             1
           ],
           "registerTechStack": [
-            1,
-            0,
-            0
+            3
           ],
           "onGenerateFiles": [
-            2,
-            0,
-            0
+            3
           ],
           "addRuntimePlugin": [
-            0,
-            0,
             0
           ],
           "chainWebpack": [
-            10
+            32
           ]
         },
-        "register": 48
+        "register": 93
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2901,28 +2334,23 @@
       "time": {
         "hooks": {
           "modifyDefaultConfig": [
+            0,
             0
           ],
           "addLayouts": [
-            0,
-            0,
             1
           ],
           "modifyRoutes": [
-            19,
-            26,
-            13
+            22
           ],
           "addEntryCodeAhead": [
-            0,
-            0,
             0
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 11
+        "register": 18
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2936,22 +2364,16 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            1,
-            0,
             0
           ],
           "addRuntimePlugin": [
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            39,
-            8,
-            12
+            50
           ]
         },
-        "register": 5
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2965,22 +2387,17 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            1,
             0
           ],
           "modifyRoutes": [
-            0,
-            0,
-            0
+            1
           ],
           "dumi.modifyMetaFiles": [
-            0,
-            0,
-            0
+            1
           ],
           "onGenerateFiles": [
-            5,
-            1,
-            2
+            4
           ]
         },
         "register": 1
@@ -2997,45 +2414,32 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ],
           "modifyAppData": [
-            0,
-            12
+            1,
+            10
           ],
           "onGenerateFiles": [
-            8,
-            163,
-            1,
-            41,
-            2,
-            66
+            9,
+            187
           ],
           "addEntryCode": [
-            0,
-            0,
             0
           ],
           "addEntryCodeAhead": [
-            0,
-            0,
             0
           ],
           "addEntryImportsAhead": [
-            1,
-            1,
-            1,
-            0,
-            1,
+            2,
             0
           ],
           "addRuntimePluginKey": [
-            0,
-            0,
             0
           ]
         },
-        "register": 100
+        "register": 162
       },
       "enableBy": "register",
       "type": "plugin",
@@ -3057,20 +2461,17 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            1,
             0
           ],
           "onCheck": [
             0
           ],
           "addRuntimePlugin": [
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            10,
-            3,
-            3
+            16
           ]
         },
         "register": 2
@@ -3086,7 +2487,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 9
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -3100,240 +2501,10 @@
       "time": {
         "hooks": {
           "onDevCompileDone": [
-            229,
-            18,
-            14,
-            41,
-            20,
-            10,
-            19,
-            13,
-            30,
-            10,
-            13,
-            14,
-            13,
-            67,
-            24,
-            31,
-            15,
-            30,
-            14,
-            18,
-            19,
-            23,
-            34,
-            10,
-            24,
-            30,
-            12,
-            27,
-            34,
-            9,
-            32,
-            10,
-            11,
-            29,
-            10,
-            19,
-            10,
-            39,
-            17,
-            15,
-            10,
-            25,
-            12,
-            30,
-            10,
-            42,
-            11,
-            27,
-            9,
-            9,
-            28,
-            17,
-            18,
-            7,
-            31,
-            13,
-            12,
-            11,
-            42,
-            11,
-            11,
-            18,
-            15,
-            43,
-            10,
-            14,
-            39,
-            11,
-            29,
-            9,
-            24,
-            37,
-            37,
-            11,
-            12,
-            15,
-            38,
-            11,
-            29,
-            21,
-            21,
-            21,
-            8,
-            26,
-            34,
-            14,
-            16,
-            22,
-            25,
-            10,
-            19,
-            10,
-            14,
-            11,
-            31,
-            7,
-            23,
-            21,
-            7,
-            14,
-            33,
-            10,
-            7,
-            10,
-            23,
-            16,
-            16,
-            32,
-            17,
-            46,
-            10,
-            9,
-            15,
-            37,
-            24,
-            9,
-            8,
-            6,
-            23,
-            18,
-            22,
-            22,
-            8,
-            8,
-            11,
-            31,
-            12,
-            13,
-            32,
-            10,
-            40,
-            15,
-            38,
-            35,
-            16,
-            38,
-            14,
-            25,
-            21,
-            17,
-            12,
-            44,
-            22,
-            35,
-            22,
-            9,
-            22,
-            12,
-            19,
-            15,
-            7,
-            7,
-            10,
-            16,
-            16,
-            6,
-            11,
-            14,
-            13,
-            30,
-            12,
-            9,
-            35,
-            35,
-            12,
-            26,
-            23,
-            43,
-            26,
-            12,
-            31,
-            14,
-            17,
-            17,
-            44,
-            16,
-            25,
-            6,
-            9,
-            26,
-            21,
-            8,
-            11,
-            39,
-            21,
-            15,
-            26,
-            19,
-            28,
-            19,
-            39,
-            10,
-            10,
-            45,
-            30,
-            29,
-            13,
-            23,
-            19,
-            16,
-            11,
-            6,
-            6,
-            19,
-            6,
-            11,
-            22,
-            33,
-            10,
-            22,
-            44,
-            11,
-            39,
-            17,
-            34,
-            27,
-            26,
-            7,
-            37,
-            38,
-            9,
-            9,
-            28,
-            19,
-            14,
-            8,
-            5,
-            16,
-            15,
-            10,
-            13
+            441
           ]
         },
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/assets.js",
@@ -3357,7 +2528,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 39
+        "register": 62
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/sitemap.js",
@@ -3371,69 +2542,16 @@
         "hooks": {
           "addEntryImports": [
             0,
-            0,
-            0,
-            0,
-            0,
             0
           ],
           "addRuntimePluginKey": [
-            0,
-            0,
             0
           ],
           "onGenerateFiles": [
-            4,
-            1,
-            1
+            4
           ],
           "addHTMLHeadScripts": [
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            1,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0
+            1
           ]
         },
         "register": 2
@@ -3734,9 +2852,11 @@
     "done": true,
     "progresses": [
       {
-        "percent": 1,
-        "status": "",
-        "details": []
+        "percent": 0.4666666666666668,
+        "status": "building",
+        "details": [
+          "2/3 entries 172/177 dependencies 1021/103 modules"
+        ]
       }
     ]
   },

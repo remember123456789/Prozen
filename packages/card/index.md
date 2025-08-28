@@ -17,7 +17,7 @@ import { ProzenCard } from "prozen-card";
 import React from "react";
 export default () => {
   return (
-    <ProzenCard title="我是表头" header={<h1>我是表头</h1>} loading={true}>
+    <ProzenCard title="我是表头" header={<h1>我是表头</h1>} loading={false}>
       <p>Card content</p>
       <p>Card content</p>
       <p>Card content</p>
