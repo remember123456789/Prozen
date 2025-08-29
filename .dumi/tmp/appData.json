@@ -50,7 +50,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 132
+        "register": 87
       },
       "enableBy": "register",
       "type": "preset",
@@ -63,7 +63,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 35
+        "register": 30
       },
       "enableBy": "register",
       "type": "preset",
@@ -77,10 +77,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            29
+            4
           ]
         },
-        "register": 24
+        "register": 15
       },
       "enableBy": "register",
       "type": "plugin",
@@ -94,10 +94,10 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
-            0
+            1
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -109,12 +109,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
       "config": {},
       "time": {
-        "hooks": {
-          "onDevCompileDone": [
-            1
-          ]
-        },
-        "register": 7
+        "hooks": {},
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -128,13 +124,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            53
-          ],
-          "onGenerateFiles": [
-            7
+            39
           ]
         },
-        "register": 98
+        "register": 77
       },
       "enableBy": "register",
       "type": "plugin",
@@ -146,11 +139,7 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
       "config": {},
       "time": {
-        "hooks": {
-          "addEntryCode": [
-            0
-          ]
-        },
+        "hooks": {},
         "register": 2
       },
       "enableBy": "register",
@@ -165,68 +154,13 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
-            0,
             0
           ],
           "onCheck": [
             1
-          ],
-          "onCheckCode": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
           ]
         },
-        "register": 9
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -270,11 +204,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ]
         },
-        "register": 69
+        "register": 41
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1126,7 +1059,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1143,7 +1076,7 @@
             1
           ]
         },
-        "register": 7
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1155,12 +1088,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
       "config": {},
       "time": {
-        "hooks": {
-          "addBeforeMiddlewares": [
-            47
-          ]
-        },
-        "register": 7
+        "hooks": {},
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1173,7 +1102,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 222
+        "register": 234
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1186,7 +1115,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 627
+        "register": 476
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1201,15 +1130,9 @@
         "hooks": {
           "onCheck": [
             0
-          ],
-          "onGenerateFiles": [
-            7
-          ],
-          "addRuntimePlugin": [
-            1
           ]
         },
-        "register": 21
+        "register": 13
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1224,15 +1147,9 @@
         "hooks": {
           "modifyAppData": [
             0
-          ],
-          "addBeforeMiddlewares": [
-            0
-          ],
-          "modifyHTMLFavicon": [
-            0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1244,15 +1161,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            11
-          ],
-          "addRuntimePlugin": [
-            0
-          ]
-        },
-        "register": 6
+        "hooks": {},
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1265,7 +1175,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 9
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1280,12 +1190,9 @@
         "hooks": {
           "onStart": [
             4
-          ],
-          "addBeforeMiddlewares": [
-            3
           ]
         },
-        "register": 102
+        "register": 93
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1297,7 +1204,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1310,7 +1217,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 4
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1321,16 +1228,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            0
-          ],
-          "addEntryImports": [
-            0,
-            0
-          ]
-        },
-        "register": 1
+        "hooks": {},
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1343,7 +1242,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1357,18 +1256,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            6,
-            0
-          ],
-          "onGenerateFiles": [
-            239
-          ],
-          "addPolyfillImports": [
-            0,
-            0
+            3
           ]
         },
-        "register": 15
+        "register": 9
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1379,12 +1270,7 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
       "config": {},
       "time": {
-        "hooks": {
-          "addPolyfillImports": [
-            0,
-            0
-          ]
-        },
+        "hooks": {},
         "register": 2
       },
       "enableBy": "register",
@@ -1398,7 +1284,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 12
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1411,7 +1297,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1424,7 +1310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1436,15 +1322,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            3
-          ],
-          "addBeforeMiddlewares": [
-            1
-          ]
-        },
-        "register": 5
+        "hooks": {},
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1456,13 +1335,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            68,
-            21
-          ]
-        },
-        "register": 30
+        "hooks": {},
+        "register": 24
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1475,7 +1349,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 9
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1500,7 +1374,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 18
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1512,12 +1386,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            1218
-          ]
-        },
-        "register": 25
+        "hooks": {},
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1529,12 +1399,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/transform/transform": {
       "config": {},
       "time": {
-        "hooks": {
-          "addBeforeBabelPresets": [
-            1
-          ]
-        },
-        "register": 19
+        "hooks": {},
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1547,7 +1413,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 16
+        "register": 10
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1560,7 +1426,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1573,7 +1439,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 58
+        "register": 28
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1585,7 +1451,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 74
+        "register": 62
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1597,12 +1463,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/test/test": {
       "config": {},
       "time": {
-        "hooks": {
-          "onGenerateFiles": [
-            13
-          ]
-        },
-        "register": 7
+        "hooks": {},
+        "register": 5
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1614,7 +1476,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1627,7 +1489,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 9
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1669,7 +1531,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1682,7 +1544,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 21
+        "register": 17
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1694,7 +1556,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1707,7 +1569,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 15
+        "register": 10
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1718,12 +1580,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
       "config": {},
       "time": {
-        "hooks": {
-          "addHTMLHeadScripts": [
-            0
-          ]
-        },
-        "register": 13
+        "hooks": {},
+        "register": 8
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1735,7 +1593,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1747,12 +1605,8 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
       "config": {},
       "time": {
-        "hooks": {
-          "modifyUniBundler": [
-            3651
-          ]
-        },
-        "register": 13
+        "hooks": {},
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1765,7 +1619,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 43
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1778,7 +1632,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 155
+        "register": 136
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1792,13 +1646,13 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            32
+            31
           ],
           "onStart": [
             0
           ]
         },
-        "register": 269
+        "register": 180
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@t_f892824e492ff8a65501c3fce7502d9d/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1810,7 +1664,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1849,7 +1703,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1875,7 +1729,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 10
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1888,7 +1742,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1940,7 +1794,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1807,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1966,7 +1820,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1979,7 +1833,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2031,7 +1885,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2044,7 +1898,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2057,7 +1911,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 11
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2070,7 +1924,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2083,7 +1937,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2096,7 +1950,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 25
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2200,11 +2054,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            9,
-            11
+            7
           ]
         },
-        "register": 6
+        "register": 2
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/autoAlias.js",
@@ -2217,24 +2070,16 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1,
             1
           ],
           "modifyDefaultConfig": [
-            0,
             0
           ],
           "onCheck": [
-            3
-          ],
-          "onGenerateFiles": [
-            5
-          ],
-          "modifyBabelPresetOpts": [
-            0
+            4
           ]
         },
-        "register": 23
+        "register": 9
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2249,7 +2094,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/compiled/@umijs/plugins/index.js",
@@ -2260,12 +2105,8 @@
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/sideEffects/index": {
       "config": {},
       "time": {
-        "hooks": {
-          "chainWebpack": [
-            0
-          ]
-        },
-        "register": 8
+        "hooks": {},
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2279,11 +2120,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
-          ],
-          "onGenerateFiles": [
-            6
           ]
         },
         "register": 2
@@ -2302,25 +2139,10 @@
           "modifyConfig": [
             0,
             0,
-            4,
-            0,
-            0,
-            1
-          ],
-          "registerTechStack": [
-            3
-          ],
-          "onGenerateFiles": [
-            3
-          ],
-          "addRuntimePlugin": [
-            0
-          ],
-          "chainWebpack": [
-            32
+            2
           ]
         },
-        "register": 93
+        "register": 69
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2334,23 +2156,16 @@
       "time": {
         "hooks": {
           "modifyDefaultConfig": [
-            0,
             0
           ],
           "addLayouts": [
-            1
+            0
           ],
           "modifyRoutes": [
-            22
-          ],
-          "addEntryCodeAhead": [
-            0
-          ],
-          "addTmpGenerateWatcherPaths": [
-            0
+            16
           ]
         },
-        "register": 18
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2365,15 +2180,9 @@
         "hooks": {
           "modifyRoutes": [
             0
-          ],
-          "addRuntimePlugin": [
-            0
-          ],
-          "onGenerateFiles": [
-            50
           ]
         },
-        "register": 7
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2387,17 +2196,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1,
             0
           ],
           "modifyRoutes": [
             1
-          ],
-          "dumi.modifyMetaFiles": [
-            1
-          ],
-          "onGenerateFiles": [
-            4
           ]
         },
         "register": 1
@@ -2414,32 +2216,14 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            0,
             0
           ],
           "modifyAppData": [
-            1,
+            0,
             10
-          ],
-          "onGenerateFiles": [
-            9,
-            187
-          ],
-          "addEntryCode": [
-            0
-          ],
-          "addEntryCodeAhead": [
-            0
-          ],
-          "addEntryImportsAhead": [
-            2,
-            0
-          ],
-          "addRuntimePluginKey": [
-            0
           ]
         },
-        "register": 162
+        "register": 122
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2461,17 +2245,10 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1,
             0
           ],
           "onCheck": [
             0
-          ],
-          "addRuntimePlugin": [
-            0
-          ],
-          "onGenerateFiles": [
-            16
           ]
         },
         "register": 2
@@ -2487,7 +2264,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 9
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2499,12 +2276,8 @@
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/assets": {
       "config": {},
       "time": {
-        "hooks": {
-          "onDevCompileDone": [
-            441
-          ]
-        },
-        "register": 0
+        "hooks": {},
+        "register": 1
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/assets.js",
@@ -2528,7 +2301,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 62
+        "register": 47
       },
       "type": "plugin",
       "path": "C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/sitemap.js",
@@ -2539,21 +2312,7 @@
     "./node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/features/html2sketch": {
       "config": {},
       "time": {
-        "hooks": {
-          "addEntryImports": [
-            0,
-            0
-          ],
-          "addRuntimePluginKey": [
-            0
-          ],
-          "onGenerateFiles": [
-            4
-          ],
-          "addHTMLHeadScripts": [
-            1
-          ]
-        },
+        "hooks": {},
         "register": 2
       },
       "enableBy": "register",
@@ -2849,16 +2608,7 @@
     "cliName": "umi"
   },
   "bundleStatus": {
-    "done": true,
-    "progresses": [
-      {
-        "percent": 0.4666666666666668,
-        "status": "building",
-        "details": [
-          "2/3 entries 172/177 dependencies 1021/103 modules"
-        ]
-      }
-    ]
+    "done": false
   },
   "react": {
     "version": "19.1.1",
@@ -2884,35 +2634,5 @@
   "port": 8000,
   "host": "0.0.0.0",
   "ip": "192.168.10.238",
-  "_2LevelNavAvailable": true,
-  "exportHtmlData": [
-    {
-      "route": {
-        "path": "/404"
-      },
-      "prerender": true,
-      "file": "404.html"
-    },
-    {
-      "route": {
-        "path": "/component/add-prozen"
-      },
-      "prerender": true,
-      "file": "component\\add-prozen\\index.html"
-    },
-    {
-      "route": {
-        "path": "/"
-      },
-      "prerender": true,
-      "file": "index.html"
-    },
-    {
-      "route": {
-        "path": "/components"
-      },
-      "prerender": true,
-      "file": "components\\index.html"
-    }
-  ]
+  "_2LevelNavAvailable": true
 }

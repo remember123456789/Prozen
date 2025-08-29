@@ -6,6 +6,7 @@ export default defineConfig({
     atomDirs: [{ type: "component", dir: "packages/card" }],
     docDirs: ["docs"], //存放普通文档的目录
   },
+  //别名
   alias: {
     "prozen-card": path.join(__dirname, "packages/card"),
   },

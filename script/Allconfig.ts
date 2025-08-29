@@ -9,3 +9,10 @@ export const getPrefixCls = (prefixCls?: string, customPrefixCls?: string) => {
   }
   return prefixCls ? `${defaultPrefixCls}-${prefixCls}` : defaultPrefixCls;
 };
+
+export const isSizeCls = (size?: "small" | "default" | "large" | undefined) => {
+  if (size) {
+    return ["small", "default", "large"].includes(size);
+  }
+  return false;
+};
