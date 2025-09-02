@@ -3,10 +3,12 @@
 // DO NOT CHANGE IT MANUALLY!
 import { frontmatter as fm0, toc as t0 } from 'C:/Users/remember/Desktop/Prozen/docs/component/addProzen.md?type=frontmatter';
 import { demoIndex as dmi0 } from 'C:/Users/remember/Desktop/Prozen/docs/component/addProzen.md?type=demo-index';
-import { frontmatter as fm1, toc as t1 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=frontmatter';
-import { demoIndex as dmi1 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=demo-index';
-import { frontmatter as fm2, toc as t2 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=frontmatter';
-import { demoIndex as dmi2 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=demo-index';
+import { frontmatter as fm1, toc as t1 } from 'C:/Users/remember/Desktop/Prozen/docs/changelog/index.md?type=frontmatter';
+import { demoIndex as dmi1 } from 'C:/Users/remember/Desktop/Prozen/docs/changelog/index.md?type=demo-index';
+import { frontmatter as fm2, toc as t2 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=frontmatter';
+import { demoIndex as dmi2 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=demo-index';
+import { frontmatter as fm3, toc as t3 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=frontmatter';
+import { demoIndex as dmi3 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=demo-index';
 
 export const filesMeta = {
   'docs/component/addProzen': {
@@ -15,16 +17,22 @@ export const filesMeta = {
     demoIndex: dmi0,
     textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/component/addProzen.md?type=text'),
   },
-  'docs/index': {
+  'docs/changelog/index': {
     frontmatter: fm1,
     toc: t1,
     demoIndex: dmi1,
-    textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/index.md?type=text'),
+    textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/changelog/index.md?type=text'),
   },
-  'components/index': {
+  'docs/index': {
     frontmatter: fm2,
     toc: t2,
     demoIndex: dmi2,
+    textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/index.md?type=text'),
+  },
+  'components/index': {
+    frontmatter: fm3,
+    toc: t3,
+    demoIndex: dmi3,
     textGetter: () => import(/* webpackChunkName: "meta__packages" */'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=text'),
   },
 }

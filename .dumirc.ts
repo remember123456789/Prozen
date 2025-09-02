@@ -53,6 +53,17 @@ export default defineConfig({
           ],
         },
       ],
+      "/changelog": [
+        {
+          title: "更新时间",
+          children: [
+            {
+              title: "2025-09-02",
+              link: "/changelog",
+            },
+          ],
+        },
+      ]
     },
     footer: "Copyright © 2025 | remember",
   },

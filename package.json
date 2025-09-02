@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vite",
     "dev": " dumi dev"
   },
   "keywords": [],
@@ -13,7 +14,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.12.4",
   "dependencies": {
-    "@vitejs/plugin-react-swc": "^4.0.0",
     "classnames": "^2.5.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
@@ -24,6 +24,7 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react-swc": "^4.0.0",
     "dumi": "^2.4.21",
     "vite": "^7.1.2",
     "vite-plugin-dts": "^4.5.4"

@@ -4,7 +4,7 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/component/addProzen":{"path":"component/add-prozen","id":"docs/component/addProzen","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"components/index":{"id":"components/index","path":"components","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout"}} as const;
+  const routes = {"404":{"id":"404","path":"*","parentId":"DocLayout"},"dumi-context-layout":{"id":"dumi-context-layout","path":"/","isLayout":true},"DocLayout":{"id":"DocLayout","path":"/","parentId":"dumi-context-layout","isLayout":true},"docs/component/addProzen":{"path":"component/add-prozen","id":"docs/component/addProzen","parentId":"DocLayout"},"docs/changelog/index":{"path":"changelog","id":"docs/changelog/index","parentId":"DocLayout"},"docs/index":{"path":"","id":"docs/index","parentId":"DocLayout"},"components/index":{"id":"components/index","path":"components","parentId":"DocLayout","meta":{"_atom_route":true}},"demo-render":{"id":"demo-render","path":"~demos/:id","parentId":"dumi-context-layout"}} as const;
   return {
     routes,
     routeComponents: {
@@ -12,6 +12,7 @@ export async function getRoutes() {
 'dumi-context-layout': React.lazy(() => import(/* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */'C:/Users/remember/Desktop/Prozen/.dumi/tmp/dumi/theme/ContextWrapper')),
 'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
 'docs/component/addProzen': React.lazy(() => import(/* webpackChunkName: "docs__component__addProzen.md" */'C:/Users/remember/Desktop/Prozen/docs/component/addProzen.md')),
+'docs/changelog/index': React.lazy(() => import(/* webpackChunkName: "docs__changelog__index.md" */'C:/Users/remember/Desktop/Prozen/docs/changelog/index.md')),
 'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'C:/Users/remember/Desktop/Prozen/docs/index.md')),
 'components/index': React.lazy(() => import(/* webpackChunkName: "packages__card__index.md" */'C:/Users/remember/Desktop/Prozen/packages/card/index.md')),
 'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/client/pages/Demo/index.js')),

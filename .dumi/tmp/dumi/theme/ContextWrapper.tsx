@@ -17,7 +17,7 @@ const entryExports = {
 const pkg = {"name":"Prozen","description":"","version":"1.0.0","license":"ISC","author":""};
 const historyType = "browser";
 const hostname = undefined;
-const themeConfig = {"footer":"Copyright © 2025 | remember","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"logo":"https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png","title":"Prozen","nav":{"zh-CN":[{"title":"文档","link":"/docs/component"},{"title":"组件","link":"/components"},{"title":"修改日志","link":"/changelog"},{"title":"国内镜像","link":"https://pro-components.antdigital.dev"}]},"sidebar":{"/components":[{"title":"组件","children":[{"title":"卡片","link":"/components/card"}]}],"/docs":[{"title":"文档","children":[{"title":"介绍","link":"/docs/introduce"}]}]}};
+const themeConfig = {"footer":"Copyright © 2025 | remember","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"logo":"https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png","title":"Prozen","nav":{"zh-CN":[{"title":"文档","link":"/docs/component"},{"title":"组件","link":"/components"},{"title":"修改日志","link":"/changelog"},{"title":"国内镜像","link":"https://pro-components.antdigital.dev"}]},"sidebar":{"/components":[{"title":"组件","children":[{"title":"卡片","link":"/components/card"}]}],"/docs":[{"title":"文档","children":[{"title":"介绍","link":"/docs/introduce"}]}],"/changelog":[{"title":"更新时间","children":[{"title":"2025-09-02","link":"/docs/changelog"}]}]}};
 const _2_level_nav_available = true;
 
 export default function DumiContextWrapper() {

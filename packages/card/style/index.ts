@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { getPrefixCls } from "../../../script/Allconfig";
 
@@ -25,7 +24,6 @@ const CardStyle = styled.div`
 const useStyleHooks = () => {
   const getStyles = (classNames: string) => {
     let classArr = classNames.split(" ");
-
     let obj = {
       [`${getPrefixCls()}-loading`]: {
         width: "100%",
@@ -45,6 +43,7 @@ const useStyleHooks = () => {
         padding: 20,
       },
     };
+
     //找到符合条件的class
     let result = Object.keys(obj)
       .map((key) => {
@@ -53,7 +52,6 @@ const useStyleHooks = () => {
         }
       })
       .filter(Boolean);
-
     return { ...result.reduce((o, item) => ({ ...o, ...item }), {}) };
   };
 
@@ -62,4 +60,5 @@ const useStyleHooks = () => {
   };
 };
 export { CardStyle };
+
 export default useStyleHooks;
