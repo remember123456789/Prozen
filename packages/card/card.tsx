@@ -14,8 +14,9 @@ export interface CardProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 't
     header?: React.ReactNode | string,
     loading?: boolean,
     style?: React.CSSProperties,
-    size?: 'small' | 'default' | 'large',
+    size?: 'small' | 'default' | 'large'
 }
+
 const InstanceCard = React.memo((props: CardProps) => {
     const { title, className, children, header, loading, size } = props;
     const { getStyles } = useStyleHooks();
@@ -36,16 +37,15 @@ const InstanceCard = React.memo((props: CardProps) => {
         [`${getPrefixCls('hase')}`]: false,
         [`${getPrefixCls(`${size && size}`)}`]: isSizeCls(size),
     })
-    console.log(allClassNames, 'allClassNames');
 
-    const styles: any = getStyles(allClassNames);
-
+    const styles: any = getStyles(allClassNames, props.style);
+    console.log(props.style, '所有style');
     return (
         <>
-            <CardStyle>
+            <CardStyle customStyle={props.style}>
                 {
                     <>
-                        <div style={Object.assign({}, styles, props.style)} className={allClassNames}>
+                        <div style={Object.assign({}, styles)} className={allClassNames}>
                             {loading && <Loading loadingShow={loading} />}
                             {head}
                             {body}

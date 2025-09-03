@@ -1,12 +1,24 @@
-import styled from "styled-components";
+import React from "react";
+import styled, { type StyledComponent } from "styled-components";
 import { getPrefixCls } from "../../../script/Allconfig";
 
-const CardStyle = styled.div`
+const CardStyle: StyledComponent<
+  "div",
+  any,
+  { customStyle?: React.CSSProperties }
+> = styled.div<{ customStyle?: React.CSSProperties }>`
+  // background: #d5e2ddff;
+  width: ${({ customStyle }: { customStyle?: any }) => {
+    return isNaN(customStyle?.width)
+      ? customStyle?.width
+      : `${customStyle?.width}px`;
+  }};
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   overflow: hidden;
   position: relative;
   z-index: 1000;
+  min-height: 300px;
   .prozen-head {
     display: flex;
     flex-direction: column;
@@ -20,7 +32,6 @@ const CardStyle = styled.div`
     padding: 10px;
   }
 `;
-
 const useStyleHooks = () => {
   const getStyles = (classNames: string) => {
     let classArr = classNames.split(" ");

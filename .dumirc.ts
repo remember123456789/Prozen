@@ -18,7 +18,7 @@ export default defineConfig({
     lastUpdated: true,
     // 配置文档标题
     title: "Prozen",
-    //配置导航栏
+    // 配置导航栏
     nav: {
       "zh-CN": [
         { title: "文档", link: "/docs/component" },
@@ -60,11 +60,11 @@ export default defineConfig({
             {
               title: "2025-09-02",
               link: "/changelog",
-            },
-          ],
-        },
-      ]
+            }
+          ]
+        }
+      ],
     },
-    footer: "Copyright © 2025 | remember",
+    footer: "Copyright © 2025 | prozen",
   },
 });

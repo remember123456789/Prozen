@@ -12,15 +12,25 @@ export default () => {
             clearTimeout(timer);
             timer = null;
         };
-
     }, [])
     return (
         <>
-            <ProzenCard title="我是表头" header={<h1>我是表头</h1>} loading={loading} >
-                <p>Card content</p>
-                <p>Card content</p>
-                <p>Card content</p>
-                <p>Card content</p>
+
+            <ProzenCard style={{
+                width: '800',
+            }} title="我是表头" header={<h2>我是表头</h2>} loading={loading} size="default" >
+
+                <ProzenCard style={{
+                    width: '700',
+                }} title="我是表头" header={<h2>我是表头</h2>} loading={loading} size="default" >
+                    <ProzenCard style={{
+                        width: '600',
+                    }} title="我是表头" header={<h2>我是表头</h2>} loading={loading} size="default" >
+                        <p>Card content</p>
+                        <p>Card content</p>
+                        <p>Card content</p>
+                    </ProzenCard>
+                </ProzenCard>
             </ProzenCard>
         </>
     );
