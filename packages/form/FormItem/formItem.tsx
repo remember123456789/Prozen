@@ -21,7 +21,7 @@ const getValueFromEvent = (e: ChangeEvent<HTMLInputElement>) => {
     } else if (target.type === 'radio') {
         return target.value;
     }
-    
+
     return target.value;
 }
 
