@@ -1,10 +1,8 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import { getPrefixCls } from '../../script/Allconfig';
-import { CardStyle } from './style';
+import { getPrefixCls, isSizeCls } from '../../script/Allconfig';
+import useStyleHooks, { CardStyle } from './style/index';
 import Loading from './component/Loading';
-import useStyleHooks from './style';
-import { isSizeCls } from '../../script/Allconfig';
 
 //继承所有的div原生属性 并且覆盖title
 export interface CardProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
@@ -38,7 +36,7 @@ const InstanceCard = React.memo((props: CardProps) => {
         [`${getPrefixCls(`${size && size}`)}`]: isSizeCls(size),
     })
 
-    const styles: any = getStyles(allClassNames, props.style);
+    const styles: any = getStyles(allClassNames);
     console.log(props.style, '所有style');
     return (
         <>

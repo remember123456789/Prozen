@@ -16,6 +16,8 @@
 # 安装步骤
 pnpm install
 
+# 运行项目
+pnpm dev
 ```
 
 ## 使用方法
@@ -36,7 +38,7 @@ project/
 ## 开发环境
 
 - Node.js v16+
-- npm v8+
+- pnpm v10.12.4
 
 ## 贡献指南
 

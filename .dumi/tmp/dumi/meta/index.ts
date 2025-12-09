@@ -7,8 +7,10 @@ import { frontmatter as fm1, toc as t1 } from 'C:/Users/remember/Desktop/Prozen/
 import { demoIndex as dmi1 } from 'C:/Users/remember/Desktop/Prozen/docs/changelog/index.md?type=demo-index';
 import { frontmatter as fm2, toc as t2 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=frontmatter';
 import { demoIndex as dmi2 } from 'C:/Users/remember/Desktop/Prozen/docs/index.md?type=demo-index';
-import { frontmatter as fm3, toc as t3 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=frontmatter';
-import { demoIndex as dmi3 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=demo-index';
+import { frontmatter as fm3, toc as t3 } from 'C:/Users/remember/Desktop/Prozen/packages/button/index.md?type=frontmatter';
+import { demoIndex as dmi3 } from 'C:/Users/remember/Desktop/Prozen/packages/button/index.md?type=demo-index';
+import { frontmatter as fm4, toc as t4 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=frontmatter';
+import { demoIndex as dmi4 } from 'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=demo-index';
 
 export const filesMeta = {
   'docs/component/addProzen': {
@@ -29,10 +31,16 @@ export const filesMeta = {
     demoIndex: dmi2,
     textGetter: () => import(/* webpackChunkName: "meta__docs" */'C:/Users/remember/Desktop/Prozen/docs/index.md?type=text'),
   },
-  'components/index': {
+  'components/button/index': {
     frontmatter: fm3,
     toc: t3,
     demoIndex: dmi3,
+    textGetter: () => import(/* webpackChunkName: "meta__packages" */'C:/Users/remember/Desktop/Prozen/packages/button/index.md?type=text'),
+  },
+  'components/card/index': {
+    frontmatter: fm4,
+    toc: t4,
+    demoIndex: dmi4,
     textGetter: () => import(/* webpackChunkName: "meta__packages" */'C:/Users/remember/Desktop/Prozen/packages/card/index.md?type=text'),
   },
 }
