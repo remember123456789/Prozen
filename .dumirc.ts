@@ -3,12 +3,13 @@ import path from "path";
 
 export default defineConfig({
   resolve: {
-    atomDirs: [{ type: "component", dir: "packages/card" }],
+    atomDirs: [{ type: "component", dir: "packages" }],
     docDirs: ["docs"], //存放普通文档的目录
   },
   //别名
   alias: {
     "prozen-card": path.join(__dirname, "packages/card"),
+    "prozen-button": path.join(__dirname, "packages/button"),
   },
   //配置文档目录
   favicons: ["https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png"],
@@ -38,6 +39,10 @@ export default defineConfig({
             {
               title: "卡片",
               link: "/components/card",
+            },
+            {
+              title: "按钮",
+              link: "/components/button",
             },
           ],
         },

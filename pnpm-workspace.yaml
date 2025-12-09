@@ -1,2 +1,3 @@
+# 工作空间配置文件
 packages:
-  - 'packages/*'
+  -  packages/*

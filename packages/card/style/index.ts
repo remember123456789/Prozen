@@ -1,12 +1,8 @@
 import React from "react";
-import styled, { type StyledComponent } from "styled-components";
+import styled from "styled-components";
 import { getPrefixCls } from "../../../script/Allconfig";
 
-const CardStyle: StyledComponent<
-  "div",
-  any,
-  { customStyle?: React.CSSProperties }
-> = styled.div<{ customStyle?: React.CSSProperties }>`
+const CardStyle = styled.div<{ customStyle?: React.CSSProperties }>`
   // background: #d5e2ddff;
   width: ${({ customStyle }: { customStyle?: any }) => {
     return isNaN(customStyle?.width)

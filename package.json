@@ -1,15 +1,21 @@
 {
   "name": "Prozen",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "main": "index.js",
+  "description": "Prozen UI 组件库",
+  "private": false,
+  "main": "dist/prozen.umd.js",
+  "module": "dist/prozen.es.js",
+  "types": "dist/types/index.d.ts",
   "type": "module",
   "scripts": {
     "test": "vite",
-    "dev": " dumi dev"
+    "dev": "dumi dev",
+    "build": "vite build",
+    "build:docs": "dumi build",
+    "lint": "eslint --ext .ts,.tsx packages/",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
+  "keywords": ["react", "component", "ui", "prozen"],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.12.4",
