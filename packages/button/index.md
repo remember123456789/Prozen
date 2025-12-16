@@ -20,8 +20,12 @@ export default () => (
     <ProzenButton type="primary">Primary Button</ProzenButton>
     <ProzenButton type="default">Default Button</ProzenButton>
     <ProzenButton type="dashed">Dashed Button</ProzenButton>
-    <ProzenButton type="text">Text Button</ProzenButton>
-    <ProzenButton type="link">Link Button</ProzenButton>
+    <ProzenButton type="default" success>Success Button</ProzenButton>
+    <ProzenButton type="default" warning>Warning Button</ProzenButton>
+    <ProzenButton type="default" error>Error Button</ProzenButton>
+    <ProzenButton type="primary" round>Link Button</ProzenButton>
+    <ProzenButton type="link" error >Link Button</ProzenButton>
+    <ProzenButton type="underline" >Link Button</ProzenButton>
   </div>
 );
 ```
@@ -71,26 +75,22 @@ export default () => (
 );
 ```
 
+
+
+
+
 ## API
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
-| type | 按钮类型 | `primary` \| `default` \| `dashed` \| `text` \| `link` | `default` |
+| type | 按钮类型 | `primary` \| `default` \| `dashed` \| `text` \| `link` | `default` | `success` \| `warning` \| `error` |
 | size | 按钮大小 | `small` \| `default` \| `large` | `default` |
 | disabled | 是否禁用 | `boolean` | `false` |
 | loading | 是否加载中 | `boolean` | `false` |
 | children | 按钮内容 | `ReactNode` | - |
 | style | 自定义样式 | `CSSProperties` | - |
 | className | 自定义类名 | `string` | - |
-
-## 样式变量
-
-| 变量名 | 说明 | 默认值 |
-| --- | --- | --- |
-| `--Prozen-primary-color` | 主色调 | `#1890ff` |
-| `--Prozen-success-color` | 成功色 | `#52c41a` |
-| `--Prozen-warning-color` | 警告色 | `#faad14` |
-| `--Prozen-error-color` | 错误色 | `#f5222d` |
-| `--Prozen-info-color` | 信息色 | `#1890ff` |
-| `--Prozen-border-radius` | 边框圆角 | `4px` |
-| `--Prozen-box-shadow` | 阴影 | `0 2px 8px rgba(0, 0, 0, 0.15)` |
+| round | 是否圆角 | `boolean` | `false` |
+| success | 是否成功状态 | `boolean` | `false` |
+| warning | 是否警告状态 | `boolean` | `false` |
+| error | 是否错误状态 | `boolean` | `false` |

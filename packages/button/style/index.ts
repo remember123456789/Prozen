@@ -102,6 +102,13 @@ export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
         text-decoration: none;
     }
 
+    .prozen-button-underline {
+     border-color: transparent;
+        color: var(--Prozen-primary-color);
+        text-decoration: none ;
+        text-decoration: underline;
+    }
+
     .prozen-button-link:hover {
         color: #40a9ff;
         text-decoration: underline;
@@ -141,5 +148,47 @@ export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
     /* 按钮间距 */
     .prozen-button + .prozen-button {
         margin-left: 8px;
+    }
+
+    /* 圆角按钮 */
+    .prozen-button-round {
+        border-radius: 20px;
+    }
+
+
+    /* 成功状态 */
+    .prozen-button-success {
+        background-color: var(--Prozen-success-color);
+        color: #fff;
+        border-color: var(--Prozen-success-color);
+    }
+
+    .prozen-button-success:hover {
+        background-color: #52c41a;
+        border-color: #52c41a;
+    }
+
+    /* 警告状态 */
+    .prozen-button-warning {
+        background-color: var(--Prozen-warning-color);
+        color: #fff;
+        border-color: var(--Prozen-warning-color);
+    }
+
+    .prozen-button-warning:hover {
+        background-color: #faad14;
+        border-color: #faad14;
+    }
+
+    /* 错误状态 */
+    .prozen-button-error {
+        background-color: var(--Prozen-error-color);
+        color: #fff;
+        border-color: var(--Prozen-error-color);
+    }
+
+    .prozen-button-error:hover {
+        background-color: #f5222d;
+        border-color: #f5222d;
     }
 `;
