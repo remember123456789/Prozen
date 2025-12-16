@@ -12,7 +12,7 @@ coverDark: https://mdn.alipayobjects.com/huamei_7uahnr/afts/img/A*5WDvQp_H7LUAAA
 
 卡片组件
 
-```jsx
+```jsx pure
 import { ProzenCard } from "prozen-card";
 import React from "react";
 export default () => {

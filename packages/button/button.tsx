@@ -4,7 +4,7 @@ import { getPrefixCls, isSizeCls } from '../../script/Allconfig';
 import { ButtonStyle } from './style';
 
 // 按钮类型
-export type ButtonType = 'primary' | 'default' | 'dashed' | 'text' | 'link';
+export type ButtonType = 'primary' | 'default' | 'dashed' | 'text' | 'link' | 'underline';
 // 按钮大小
 export type ButtonSize = 'small' | 'default' | 'large';
 
@@ -22,6 +22,14 @@ export interface ButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonE
     children?: React.ReactNode;
     // 样式
     style?: React.CSSProperties;
+    // 圆角
+    round?: boolean;
+    // 成功状态
+    success?: boolean;
+    // 警告状态
+    warning?: boolean;
+    // 错误状态
+    error?: boolean;
 }
 
 const InstanceButton = React.memo((props: ButtonProps) => {
@@ -33,6 +41,10 @@ const InstanceButton = React.memo((props: ButtonProps) => {
         children,
         className,
         style,
+        round = false,
+        success,
+        warning,
+        error,
         ...restProps
     } = props;
 
@@ -43,12 +55,16 @@ const InstanceButton = React.memo((props: ButtonProps) => {
         [`${getPrefixCls()}-button-${size}`]: isSizeCls(size),
         [`${getPrefixCls()}-button-disabled`]: disabled || loading,
         [`${getPrefixCls()}-button-loading`]: loading,
-    });
+        [`${getPrefixCls()}-button-round`]: round,
+        [`${getPrefixCls()}-button-success`]: success,
+        [`${getPrefixCls()}-button-warning`]: warning,
+        [`${getPrefixCls()}-button-error`]: error,
+    })
 
     return (
         <>
             <ButtonStyle customStyle={style} />
-            <button
+            <button 
                 className={allClassNames}
                 disabled={disabled || loading}
                 style={style}
