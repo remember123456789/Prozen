@@ -13,5 +13,5 @@
       "@/*": ["packages/*"]
     }
   },
-  "include": ["packages/**/*", "vite.config.ts"]
+  "include": ["packages/**/*", "vite.config.ts", ".dumirc.ts"]
 }

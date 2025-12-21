@@ -30,6 +30,8 @@ export interface ButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonE
     warning?: boolean;
     // 错误状态
     error?: boolean;
+    // 图标
+    icon?: string;
 }
 
 const InstanceButton = React.memo((props: ButtonProps) => {
@@ -45,6 +47,7 @@ const InstanceButton = React.memo((props: ButtonProps) => {
         success,
         warning,
         error,
+        icon,
         ...restProps
     } = props;
 
@@ -64,13 +67,14 @@ const InstanceButton = React.memo((props: ButtonProps) => {
     return (
         <>
             <ButtonStyle customStyle={style} />
-            <button 
+            <button
                 className={allClassNames}
                 disabled={disabled || loading}
                 style={style}
                 {...restProps}
             >
                 {loading && <span className={`${getPrefixCls()}-button-loading-icon`}>⏳</span>}
+                {icon && <span className={`${getPrefixCls()}-button-icon iconfont icon-${icon}`}></span>}
                 {children}
             </button>
         </>

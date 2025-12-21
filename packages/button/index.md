@@ -24,7 +24,6 @@ export default () => (
     <ProzenButton type="default" warning>Warning Button</ProzenButton>
     <ProzenButton type="default" error>Error Button</ProzenButton>
     <ProzenButton type="primary" round>Link Button</ProzenButton>
-    <ProzenButton type="link" error >Link Button</ProzenButton>
     <ProzenButton type="underline" >Link Button</ProzenButton>
   </div>
 );
@@ -75,9 +74,22 @@ export default () => (
 );
 ```
 
+### 图标按钮
 
+```tsx
+import React from 'react';
+import { ProzenButton } from 'prozen-button';
 
-
+export default () => (
+  <div>
+    <ProzenButton type="primary" icon="jinru">带图标按钮</ProzenButton>
+    <ProzenButton type="default" icon="jinru">默认图标</ProzenButton>
+    <ProzenButton type="dashed" icon="jinru">虚线图标</ProzenButton>
+    <ProzenButton type="primary" icon="guanbi">关闭按钮</ProzenButton>
+    <ProzenButton type="primary" icon="bofang">播放按钮</ProzenButton>
+  </div>
+);
+```
 
 ## API
 
@@ -94,3 +106,25 @@ export default () => (
 | success | 是否成功状态 | `boolean` | `false` |
 | warning | 是否警告状态 | `boolean` | `false` |
 | error | 是否错误状态 | `boolean` | `false` |
+| icon | 图标类型 | `string` | - |
+| underline | 是否下划线 | `boolean` | `false` |
+
+### 可用图标
+
+支持的图标类型包括：
+- `jinru` - 进入箭头  
+- `guanbi` - 关闭图标  
+- `bofang` - 播放图标
+- `fanhui` - 返回图标
+- `xihuan` - 喜欢图标
+- `gengduo` - 更多图标
+- `shouye` - 首页图标
+- `xiaoxi` - 消息图标
+- `faxian` - 发现图标
+- `gerenzhongxin` - 个人中心图标
+
+
+...
+
+
+![alt text](../../assets//image.png)

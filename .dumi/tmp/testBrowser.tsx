@@ -9,6 +9,7 @@ import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import type { Location } from 'history';
 
+import Loading from 'C:/Users/remember/Desktop/Prozen/.dumi/loading.tsx';
 
 import { getPluginManager as getDumiPluginManager } from './core/plugin';
 import { setPluginManager as setDumiPluginManager } from 'C:/Users/remember/Desktop/Prozen/node_modules/.pnpm/dumi@2.4.21_@babel+core@7.2_514b76374320fa6069ce5d765ad00d76/node_modules/dumi/dist/client/theme-api/utils.js';
@@ -52,6 +53,7 @@ export function TestBrowser(props: TestBrowserProps) {
         routeComponents,
         pluginManager,
         rootElement: contextOpts.rootElement || document.getElementById('root'),
+        loadingComponent: Loading,
         publicPath,
         runtimePublicPath,
         history,

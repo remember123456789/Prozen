@@ -1,3 +1,4 @@
+import '../theme-chalk/fonts/index.less'
 import InstanceCard from './card';
 import { CardProps } from './card';
 

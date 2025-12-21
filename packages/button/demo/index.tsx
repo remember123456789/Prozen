@@ -28,10 +28,17 @@ const ButtonDemo = () => {
       </div>
 
       <h3>加载状态</h3>
-      <div>
+      <div style={{ marginBottom: 20 }}>
         <ProzenButton type="primary" loading style={{ marginRight: 8 }}>Loading Primary</ProzenButton>
         <ProzenButton type="default" loading style={{ marginRight: 8 }}>Loading Default</ProzenButton>
         <ProzenButton type="dashed" loading>Loading Dashed</ProzenButton>
+      </div>
+
+      <h3>图标按钮</h3>
+      <div>
+        <ProzenButton type="primary" icon="jinru" style={{ marginRight: 8 }}>带图标按钮</ProzenButton>
+        <ProzenButton type="default" icon="jinru" style={{ marginRight: 8 }}>默认图标</ProzenButton>
+        <ProzenButton type="dashed" icon="jinru">虚线图标</ProzenButton>
       </div>
     </div>
   );

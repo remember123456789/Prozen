@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 interface ButtonStyleProps {
-    customStyle?: React.CSSProperties;
+  customStyle?: React.CSSProperties;
 }
 
 export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
@@ -18,7 +18,7 @@ export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
         --Prozen-border-radius: 4px;
         --Prozen-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
-
+    
     /* 按钮基础样式 */
     .prozen-button {
         display: inline-block;
@@ -35,10 +35,10 @@ export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
         user-select: none;
         padding: 4px 15px;
         margin: 0;
-        outline: none;
+        outline: none;   /* 去掉默认轮廓线 */
         background-color: #fff;
         color: var(--Prozen-text-color);
-        border-color: var(--Prozen-border-color);
+        // border-color: var(--Prozen-border-color);
     }
 
     /* 按钮悬停状态 */
@@ -54,7 +54,7 @@ export const ButtonStyle = createGlobalStyle<ButtonStyleProps>`
 
     /* 按钮聚焦状态 */
     .prozen-button:focus {
-        box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+       outline: none;
     }
 
     /* 按钮禁用状态 */
