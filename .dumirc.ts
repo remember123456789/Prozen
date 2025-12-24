@@ -10,6 +10,7 @@ export default defineConfig({
   alias: {
     "prozen-card": path.join(__dirname, "packages/card"),
     "prozen-button": path.join(__dirname, "packages/button"),
+    "prozen-message": path.join(__dirname, "packages/message"),
   },
   //配置文档目录
   favicons: ["https://youke1.picui.cn/s1/2025/08/19/68a4948e18150.png"],
@@ -44,6 +45,10 @@ export default defineConfig({
               title: "按钮",
               link: "/components/button",
             },
+            {
+              title: "消息提示",
+              link: "/components/message",
+            },
           ],
         },
       ],
@@ -65,9 +70,9 @@ export default defineConfig({
             {
               title: "2025-09-02",
               link: "/changelog",
-            }
-          ]
-        }
+            },
+          ],
+        },
       ],
     },
     footer: "Copyright © 2025 | prozen",

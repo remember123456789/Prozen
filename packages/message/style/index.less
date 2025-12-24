@@ -1,51 +1,111 @@
-    /* 按钮基础样式 */
-    :root {
-        --Prozen-primary-color: #1890ff;
-        --Prozen-success-color: #52c41a;
-        --Prozen-warning-color: #faad14;
-        --Prozen-error-color: #f5222d;
-        --Prozen-info-color: #1890ff;
-        --Prozen-heading-color: rgba(0, 0, 0, 0.85);
-        --Prozen-text-color: rgba(0, 0, 0, 0.65);
-        --Prozen-text-color-secondary: rgba(0, 0, 0, 0.45);
-        --Prozen-border-color: #e8e8e8;
-        --Prozen-border-radius: 12px;
-        --Prozen-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+/* 消息组件样式 */
+:root {
+    --Prozen-primary-color: #1890ff;
+    --Prozen-success-color: #52c41a;
+    --Prozen-warning-color: #faad14;
+    --Prozen-error-color: #f5222d;
+    --Prozen-info-color: #1890ff;
+    --Prozen-heading-color: rgba(0, 0, 0, 0.85);
+    --Prozen-text-color: rgba(0, 0, 0, 0.65);
+    --Prozen-text-color-secondary: rgba(0, 0, 0, 0.45);
+    --Prozen-border-color: #e8e8e8;
+    --Prozen-border-radius: 12px;
+    --Prozen-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* 消息容器 - 固定在页面顶部中央 */
+.prozen-message-container {
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* 单个消息项 */
+.message-container {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    max-width: 600px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: var(--Prozen-border-radius);
+    box-shadow: var(--Prozen-box-shadow);
+    pointer-events: auto;
+    animation: message-fade-in 0.3s ease-in-out;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 消息类型样式 */
+.prozen-message-info {
+    background-color: var(--Prozen-info-color);
+    color: #fff;
+}
+
+.prozen-message-success {
+    background-color: var(--Prozen-success-color);
+    color: #fff;
+}
+
+.prozen-message-warning {
+    background-color: var(--Prozen-warning-color);
+    color: #fff;
+}
+
+.prozen-message-error {
+    background-color: var(--Prozen-error-color);
+    color: #fff;
+}
+
+/* 动画效果 */
+@keyframes message-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes message-fade-out {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+/* 消息退出动画 */
+.message-container.message-exit {
+    animation: message-fade-out 0.3s ease-in-out;
+}
+
+/* 图标样式 */
+.message-container .iconfont {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .prozen-message-container {
+        left: 16px;
+        right: 16px;
+        transform: none;
     }
 
     .message-container {
-        width: auto;
-        position: fixed;
-        top: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 10px 20px;
-        border-radius: var(--Prozen-border-radius);
-        box-shadow: var(--Prozen-box-shadow);
-        z-index: 9999;
+        max-width: none;
+        width: calc(100% - 32px);
     }
-
-    .prozen-message {
-        transform: translateX(-50%);
-        animation: message-fade-in 0.3s ease-in-out;
-
-        &-info {
-            background-color: var(--Prozen-info-color);
-            color: #fff;
-        }
-
-        &-success {
-            background-color: var(--Prozen-success-color);
-            color: #fff;
-        }
-
-        &-warning {
-            background-color: var(--Prozen-warning-color);
-            color: #fff;
-        }
-
-        &-error {
-            background-color: var(--Prozen-error-color);
-            color: #fff;
-        }
-    }
+}

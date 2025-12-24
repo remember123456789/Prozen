@@ -2,31 +2,37 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import classNames from 'classnames';
 import { getPrefixCls } from '../../script/Allconfig';
-// import { MessageStyle } from './style';
+
 import './style/index.less'
+
 export interface MessageProps {
     content: string;
     duration?: number;
     type?: 'info' | 'success' | 'warning' | 'error';
+    icon?: string;
 }
-const CreateMessageDom = (props: MessageProps) => {
 
-    const { content, duration, type } = props;
-    // 生成按钮的类名
-    const allClassNames = classNames({
-        [`${getPrefixCls()}-message-${type}`]: true,
-    })
+interface MessageItem extends MessageProps {
+    id: number;
+}
+
+const CreateMessageDom = ({ message }: { message: MessageItem }) => {
+    const { content, type, icon } = message;
+
+    // 生成消息类名
+    const allClassNames = classNames(
+        'message-container',
+        `${getPrefixCls()}-message-${type}`
+    );
 
     return (
-        <>
-            {/* <MessageStyle></MessageStyle> */}
-            <div className={'message-container  ' + allClassNames}>
-                {/* <i className='iconfont icon-jinru'></i> */}
-                <span>{content}</span>
-            </div>
-        </>
+        <div className={allClassNames}>
+            {icon && <i className={`iconfont icon-${icon}`}></i>}
+            <div>{content}</div>
+        </div>
     )
 }
+
 const createDom = () => {
     let container = document.createElement('div');
     container.className = 'prozen-message-container';
@@ -35,49 +41,84 @@ const createDom = () => {
 }
 
 class MessageClass {
-    private timer: NodeJS.Timeout | null = null;
+    private messages: MessageItem[] = [];
+    private container: HTMLElement | null = null;
     private root: ReactDOM.Root | null = null;
+    private idCounter = 0;
+
+    private ensureContainer() {
+        if (!this.container) {
+            this.container = createDom();
+            this.root = ReactDOM.createRoot(this.container);
+        }
+    }
+
+    private renderMessages() {
+        if (!this.root) return;
+
+        this.root.render(
+            <>
+                {this.messages.map((message) => (
+                    <CreateMessageDom key={message.id} message={message} />
+                ))}
+            </>
+        );
+    }
+
+    private removeMessage(id: number) {
+        this.messages = this.messages.filter(msg => msg.id !== id);
+        this.renderMessages();
+
+        if (this.messages.length === 0) {
+            // 清理容器
+            setTimeout(() => {
+                if (this.messages.length === 0 && this.container) {
+                    this.root?.unmount();
+                    this.root = null;
+                    document.body.removeChild(this.container);
+                    this.container = null;
+                }
+            }, 300);
+        }
+    }
 
     show(props: MessageProps) {
-        let container = document.querySelector('.prozen-message-container');
-        if (!container) {
-            container = createDom();
-        }
+        this.ensureContainer();
 
-        // 清理上一次的实例
-        if (this.timer) {
-            clearTimeout(this.timer);
-            this.timer = null;
-        }
-        if (this.root) {
-            this.root.unmount();
-            this.root = null;
-        }
+        const id = ++this.idCounter;
+        const message: MessageItem = {
+            id,
+            ...props,
+            duration: props.duration || 3000
+        };
 
-        // 创建新实例
-        this.root = ReactDOM.createRoot(container as HTMLElement);
-        this.root.render(<CreateMessageDom {...props} />);
+        this.messages.push(message);
+        this.renderMessages();
 
-        this.timer = setTimeout(() => {
-            this.root?.unmount();
-            this.timer = null;
-            this.root = null;
-        }, props.duration || 3000);
+        // 设置自动消失
+        setTimeout(() => {
+            this.removeMessage(id);
+        }, message.duration);
     }
 
-    info(content: MessageProps['content']) {
-        this.show({ content, duration: 3000, type: 'info' });
+    info(content: MessageProps['content'], duration?: number) {
+        this.show({ content, duration, type: 'info' });
     }
-    success(content: MessageProps['content']) {
-        this.show({ content, duration: 3000, type: 'success' });
+
+    success(content: MessageProps['content'], duration?: number) {
+        this.show({ content, duration, type: 'success' });
     }
-    warning(content: MessageProps['content']) {
-        this.show({ content, duration: 3000, type: 'warning' });
+
+    warning(content: MessageProps['content'], duration?: number) {
+        this.show({ content, duration, type: 'warning' });
     }
-    error(content: MessageProps['content']) {
-        this.show({ content, duration: 3000, type: 'error' });
+
+    error(content: MessageProps['content'], duration?: number) {
+        this.show({ content, duration, type: 'error' });
     }
 }
 
+const message = new MessageClass();
 
-export default new MessageClass();
+export default message;
+export type { MessageItem };

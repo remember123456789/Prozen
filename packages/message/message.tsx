@@ -1,7 +1,6 @@
-// import '../theme-chalk/fonts/index.less'
-import Message from './index';
-import type { MessageProps } from './index';
+import '../theme-chalk/fonts/index.less'
+import Message, { MessageItem } from './index';
 
 
-export type { MessageProps };
+export type { MessageItem };
 export default Message;
