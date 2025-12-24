@@ -4,33 +4,34 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { ProzenCard } from "@prozen/card";
 import { ProzenButton } from "@prozen/button";
+import Message from "@prozen/message";
+import { useTimeFillo } from "./hook/useTimeFillo";
 function App() {
   const [count, setCount] = useState(0)
+  const { time } = useTimeFillo(100);
+
 
   return (
     <>
       <div>
-        <ProzenButton icon="InTo" onClick={() => setCount((count) => count + 1)} type="primary" size='default' success> 点击</ProzenButton>
-        <ProzenCard  >点击</ProzenCard>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <ProzenButton icon="InTo" onClick={() => {
+          Message.info('这是一条info消息');
+          console.log(Message)
+        }} type="primary" size='default' success> 点击</ProzenButton>
+        <ProzenButton icon="InTo" onClick={() => {
+          Message.success('这是一条success消息');
+          console.log(Message)
+        }} type="primary" size='default' success> 点击</ProzenButton>
+        <ProzenButton icon="InTo" onClick={() => {
+          Message.warning('这是一条warning消息');
+          console.log(Message)
+        }} type="primary" size='default' success> 点击</ProzenButton>
+        <ProzenButton icon="InTo" onClick={() => {
+          Message.error('这是一条error消息');
+          console.log(Message)
+        }} type="primary" size='default' success> 点击</ProzenButton>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
     </>
   )
 }
